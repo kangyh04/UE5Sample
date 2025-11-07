@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\MyProject.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MyProject.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\MyProjectEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\MyProject">
+      <UniqueIdentifier>{E24959B1-EBAF-399D-9D3A-65ADD2D94AF5}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MyProject\MyProject.Build.cs">
+      <Filter>Source\MyProject</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\MyProject\MyProject.cpp">
+      <Filter>Source\MyProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MyProject\MyProject.h">
+      <Filter>Source\MyProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MyProject\MyProjectCharacter.cpp">
+      <Filter>Source\MyProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MyProject\MyProjectCharacter.h">
+      <Filter>Source\MyProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MyProject\MyProjectGameMode.cpp">
+      <Filter>Source\MyProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MyProject\MyProjectGameMode.h">
+      <Filter>Source\MyProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MyProject\MyProjectPlayerController.cpp">
+      <Filter>Source\MyProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MyProject\MyProjectPlayerController.h">
+      <Filter>Source\MyProject</Filter>
+    </ClInclude>
+    <Filter Include="Source\MyProject\Variant_Combat">
+      <UniqueIdentifier>{EFE41DE2-7C5E-3DF5-9254-46945449F6D7}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\MyProject\Variant_Combat\AnimNotify_CheckChargedAttack.cpp">
+      <Filter>Source\MyProject\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MyProject\Variant_Combat\AnimNotify_CheckChargedAttack.h">
+      <Filter>Source\MyProject\Variant_Combat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MyProject\Variant_Combat\AnimNotify_CheckCombo.cpp">
+      <Filter>Source\MyProject\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MyProject\Variant_Combat\AnimNotify_CheckCombo.h">
+      <Filter>Source\MyProject\Variant_Combat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MyProject\Variant_Combat\AnimNotify_DoAttackTrace.cpp">
+      <Filter>Source\MyProject\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MyProject\Variant_Combat\AnimNotify_DoAttackTrace.h">
+      <Filter>Source\MyProject\Variant_Combat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MyProject\Variant_Combat\CombatActivatable.cpp">
+      <Filter>Source\MyProject\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MyProject\Variant_Combat\CombatActivatable.h">
+      <Filter>Source\MyProject\Variant_Combat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MyProject\Variant_Combat\CombatActivationVolume.cpp">
+      <Filter>Source\MyProject\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MyProject\Variant_Combat\CombatActivationVolume.h">
+      <Filter>Source\MyProject\Variant_Combat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MyProject\Variant_Combat\CombatAttacker.cpp">
+      <Filter>Source\MyProject\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MyProject\Variant_Combat\CombatAttacker.h">
+      <Filter>Source\MyProject\Variant_Combat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MyProject\Variant_Combat\CombatCharacter.cpp">
+      <Filter>Source\MyProject\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MyProject\Variant_Combat\CombatCharacter.h">
+      <Filter>Source\MyProject\Variant_Combat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MyProject\Variant_Combat\CombatCheckpointVolume.cpp">
+      <Filter>Source\MyProject\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MyProject\Variant_Combat\CombatCheckpointVolume.h">
+      <Filter>Source\MyProject\Variant_Combat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MyProject\Variant_Combat\CombatDamageable.cpp">
+      <Filter>Source\MyProject\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MyProject\Variant_Combat\CombatDamageable.h">
+      <Filter>Source\MyProject\Variant_Combat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MyProject\Variant_Combat\CombatDamageableBox.cpp">
+      <Filter>Source\MyProject\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MyProject\Variant_Combat\CombatDamageableBox.h">
+      <Filter>Source\MyProject\Variant_Combat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MyProject\Variant_Combat\CombatDummy.cpp">
+      <Filter>Source\MyProject\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MyProject\Variant_Combat\CombatDummy.h">
+      <Filter>Source\MyProject\Variant_Combat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MyProject\Variant_Combat\CombatGameMode.cpp">
+      <Filter>Source\MyProject\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MyProject\Variant_Combat\CombatGameMode.h">
+      <Filter>Source\MyProject\Variant_Combat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MyProject\Variant_Combat\CombatLavaFloor.cpp">
+      <Filter>Source\MyProject\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MyProject\Variant_Combat\CombatLavaFloor.h">
+      <Filter>Source\MyProject\Variant_Combat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MyProject\Variant_Combat\CombatLifeBar.cpp">
+      <Filter>Source\MyProject\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MyProject\Variant_Combat\CombatLifeBar.h">
+      <Filter>Source\MyProject\Variant_Combat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MyProject\Variant_Combat\CombatPlayerController.cpp">
+      <Filter>Source\MyProject\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MyProject\Variant_Combat\CombatPlayerController.h">
+      <Filter>Source\MyProject\Variant_Combat</Filter>
+    </ClInclude>
+    <Filter Include="Source\MyProject\Variant_Combat\AI">
+      <UniqueIdentifier>{CEE62681-1D83-3EE6-9F84-E0E203C5DA07}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\MyProject\Variant_Combat\AI\CombatAIController.cpp">
+      <Filter>Source\MyProject\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MyProject\Variant_Combat\AI\CombatAIController.h">
+      <Filter>Source\MyProject\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MyProject\Variant_Combat\AI\CombatEnemy.cpp">
+      <Filter>Source\MyProject\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MyProject\Variant_Combat\AI\CombatEnemy.h">
+      <Filter>Source\MyProject\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MyProject\Variant_Combat\AI\CombatEnemySpawner.cpp">
+      <Filter>Source\MyProject\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MyProject\Variant_Combat\AI\CombatEnemySpawner.h">
+      <Filter>Source\MyProject\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MyProject\Variant_Combat\AI\CombatStateTreeUtility.cpp">
+      <Filter>Source\MyProject\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MyProject\Variant_Combat\AI\CombatStateTreeUtility.h">
+      <Filter>Source\MyProject\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MyProject\Variant_Combat\AI\EnvQueryContext_Player.cpp">
+      <Filter>Source\MyProject\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MyProject\Variant_Combat\AI\EnvQueryContext_Player.h">
+      <Filter>Source\MyProject\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <Filter Include="Source\MyProject\Variant_Platforming">
+      <UniqueIdentifier>{E8F5F242-AF7D-3543-B678-9FDEF375F37A}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\MyProject\Variant_Platforming\AnimNotify_EndDash.cpp">
+      <Filter>Source\MyProject\Variant_Platforming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MyProject\Variant_Platforming\AnimNotify_EndDash.h">
+      <Filter>Source\MyProject\Variant_Platforming</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MyProject\Variant_Platforming\PlatformingCharacter.cpp">
+      <Filter>Source\MyProject\Variant_Platforming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MyProject\Variant_Platforming\PlatformingCharacter.h">
+      <Filter>Source\MyProject\Variant_Platforming</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MyProject\Variant_Platforming\PlatformingGameMode.cpp">
+      <Filter>Source\MyProject\Variant_Platforming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MyProject\Variant_Platforming\PlatformingGameMode.h">
+      <Filter>Source\MyProject\Variant_Platforming</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MyProject\Variant_Platforming\PlatformingPlayerController.cpp">
+      <Filter>Source\MyProject\Variant_Platforming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MyProject\Variant_Platforming\PlatformingPlayerController.h">
+      <Filter>Source\MyProject\Variant_Platforming</Filter>
+    </ClInclude>
+    <Filter Include="Source\MyProject\Variant_SideScrolling">
+      <UniqueIdentifier>{04FE8093-60C8-316E-9FDE-AC69DE9F3A46}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\MyProject\Variant_SideScrolling\SideScrollingCameraManager.cpp">
+      <Filter>Source\MyProject\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MyProject\Variant_SideScrolling\SideScrollingCameraManager.h">
+      <Filter>Source\MyProject\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MyProject\Variant_SideScrolling\SideScrollingCharacter.cpp">
+      <Filter>Source\MyProject\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MyProject\Variant_SideScrolling\SideScrollingCharacter.h">
+      <Filter>Source\MyProject\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\MyProject\Variant_SideScrolling\SideScrollingCPP.Build.cs">
+      <Filter>Source\MyProject\Variant_SideScrolling</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\MyProject\Variant_SideScrolling\SideScrollingGameMode.cpp">
+      <Filter>Source\MyProject\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MyProject\Variant_SideScrolling\SideScrollingGameMode.h">
+      <Filter>Source\MyProject\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MyProject\Variant_SideScrolling\SideScrollingInteractable.cpp">
+      <Filter>Source\MyProject\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MyProject\Variant_SideScrolling\SideScrollingInteractable.h">
+      <Filter>Source\MyProject\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MyProject\Variant_SideScrolling\SideScrollingPlayerController.cpp">
+      <Filter>Source\MyProject\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MyProject\Variant_SideScrolling\SideScrollingPlayerController.h">
+      <Filter>Source\MyProject\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MyProject\Variant_SideScrolling\SideScrollingUI.cpp">
+      <Filter>Source\MyProject\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MyProject\Variant_SideScrolling\SideScrollingUI.h">
+      <Filter>Source\MyProject\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <Filter Include="Source\MyProject\Variant_SideScrolling\AI">
+      <UniqueIdentifier>{2ECF3066-B0D1-33C4-A5EF-E3442B6E760E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\MyProject\Variant_SideScrolling\AI\SideScrollingAIController.cpp">
+      <Filter>Source\MyProject\Variant_SideScrolling\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MyProject\Variant_SideScrolling\AI\SideScrollingAIController.h">
+      <Filter>Source\MyProject\Variant_SideScrolling\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MyProject\Variant_SideScrolling\AI\SideScrollingNPC.cpp">
+      <Filter>Source\MyProject\Variant_SideScrolling\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MyProject\Variant_SideScrolling\AI\SideScrollingNPC.h">
+      <Filter>Source\MyProject\Variant_SideScrolling\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MyProject\Variant_SideScrolling\AI\SideScrollingStateTreeUtility.cpp">
+      <Filter>Source\MyProject\Variant_SideScrolling\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MyProject\Variant_SideScrolling\AI\SideScrollingStateTreeUtility.h">
+      <Filter>Source\MyProject\Variant_SideScrolling\AI</Filter>
+    </ClInclude>
+    <Filter Include="Source\MyProject\Variant_SideScrolling\Gameplay">
+      <UniqueIdentifier>{FAE6038E-77C5-3042-93D9-A7E369B05C60}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\MyProject\Variant_SideScrolling\Gameplay\SideScrollingJumpPad.cpp">
+      <Filter>Source\MyProject\Variant_SideScrolling\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MyProject\Variant_SideScrolling\Gameplay\SideScrollingJumpPad.h">
+      <Filter>Source\MyProject\Variant_SideScrolling\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MyProject\Variant_SideScrolling\Gameplay\SideScrollingMovingPlatform.cpp">
+      <Filter>Source\MyProject\Variant_SideScrolling\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MyProject\Variant_SideScrolling\Gameplay\SideScrollingMovingPlatform.h">
+      <Filter>Source\MyProject\Variant_SideScrolling\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MyProject\Variant_SideScrolling\Gameplay\SideScrollingPickup.cpp">
+      <Filter>Source\MyProject\Variant_SideScrolling\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MyProject\Variant_SideScrolling\Gameplay\SideScrollingPickup.h">
+      <Filter>Source\MyProject\Variant_SideScrolling\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MyProject\Variant_SideScrolling\Gameplay\SideScrollingSoftPlatform.cpp">
+      <Filter>Source\MyProject\Variant_SideScrolling\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MyProject\Variant_SideScrolling\Gameplay\SideScrollingSoftPlatform.h">
+      <Filter>Source\MyProject\Variant_SideScrolling\Gameplay</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

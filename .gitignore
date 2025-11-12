@@ -55,7 +55,7 @@ Plugins/*/Binaries/*
 
 # Unreal
 MyProject/Saved/*
-Intermediate/*
+Intermediate/
 
 # Builds
 Build/*

@@ -33,6 +33,9 @@ class AMyProjectCharacter : public ACharacter
 	
 protected:
 
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category="Input")
+	class UInputMappingContext* IC_Character;
+
 	/** Jump Input Action */
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category="Input")
 	UInputAction* JumpAction;
@@ -44,10 +47,6 @@ protected:
 	/** Look Input Action */
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category="Input")
 	UInputAction* LookAction;
-
-	/** Mouse Look Input Action */
-	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category="Input")
-	UInputAction* MouseLookAction;
 
 public:
 
